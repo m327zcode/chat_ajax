@@ -1,0 +1,19 @@
+.body{
+  background:rgb(221, 236, 255) ;
+}
+.boxs{
+  background: white;
+  border-radius: 5px;
+  width: 600px;
+  height: 600px;
+  position: fixed;
+  margin: auto;
+  top: 20px;
+  right: 0;
+  left: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#chat_style{
+  padding:0 10px 0 10px;
+}
