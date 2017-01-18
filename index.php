@@ -54,10 +54,6 @@ require_once 'config.php';
           $msg = $_POST['msg'];
           $query = "INSERT INTO chat_ajax (name,msg) value('$name','$msg')";
           $run = $con->query($query);
-
-          if($run) {
-            echo "<embbed loop='false' scr='chat.wav' hidden='true' autoplay='true'/>";
-          }
         } else {
           echo "<div class='alert alert-danger'><strong>Please insert a message</div>";
         }
